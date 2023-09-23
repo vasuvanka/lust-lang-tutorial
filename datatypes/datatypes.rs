@@ -92,4 +92,7 @@ fn main() {
             None => println!("Slow down! {} is too far!, slice out of bound", i),
         }
     }
+
+    // statement formatting
+    println!("{0}, this is {1}. {1}, this is {0}", "Alice", "Bob");
 }

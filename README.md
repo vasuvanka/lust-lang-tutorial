@@ -42,7 +42,7 @@ To test that you have Rust and Cargo installed, you can run this in your termina
     cargo --version
 ```
 
-[Hello world][https://doc.rust-lang.org/rust-by-example/hello.html]
+(Doc link to Hello world)[https://doc.rust-lang.org/rust-by-example/hello.html]
 
 # Project Hello-rust
 

@@ -18,6 +18,8 @@ fn read_dir(file_path: String) -> Vec<String> {
 }
 
 fn read_file(file_path: String) -> Vec<String> {
+    let metadata = fs::metadata(&file_path).unwrap();
+    println!("{:?}", metadata.file_type());
     let files = fs::read_to_string(file_path);
     let mut my_vec: Vec<String> = Vec::new();
     let result = match files {

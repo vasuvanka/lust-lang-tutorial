@@ -16,7 +16,7 @@ output of the program
 thread 'main' panicked at 'Farewell!', src/main.rs:2:5
 ```
 
-## Rust panics on some operations such as a division by zero or an attempt to access an index that isn't present in an array, a vector, or a hash map, as shown in the following code:
+Rust panics on some operations such as a division by zero or an attempt to access an index that isn't present in an array, a vector, or a hash map, as shown in the following code:
 
 ```rs
 fn main() {
